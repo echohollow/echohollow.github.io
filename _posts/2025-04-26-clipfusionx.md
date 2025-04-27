@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "First Release — ClipFusionX Prototype"
-date: 2025-04-28 00:00:00 -0000
+date: 2024-04-26 00:00:00 -0000
 categories: announcement
 ---
 
