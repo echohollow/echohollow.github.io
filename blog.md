@@ -21,7 +21,7 @@ Explore ongoing research, software releases, and operational development logs.
   {%- if clipfusionx_post -%}
   [📝 Read the Development Log ➔]({{ clipfusionx_post.url }})
   {%- else -%}
-  **(Development log coming soon...)**
+  [📝 Read the Development Log ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-26-clipfusionx.md)
   {%- endif -%}
 
 ---
