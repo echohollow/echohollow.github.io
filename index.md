@@ -3,38 +3,33 @@ layout: default
 title: EchoHollow Labs
 ---
 
-# <span style="color:#00ffcc;">EchoHollow Labs</span>
+# EchoHollow
 
-> **Stealth Research Division**  
-> Malware | Covert C2 Networks | Reverse Engineering
-
----
-
-## 🧠 Mission Profile
-
-At **EchoHollow Labs**, we specialize in advanced threat development:  
-- ⚡ Memory-resident malware engineering  
-- ⚡ Autonomous command-and-control frameworks  
-- ⚡ Dynamic reverse engineering of hostile payloads  
-- ⚡ Stealth communication over DNS, QUIC, and covert channels  
+> Malware Developer | Threat Analyst | Network Breaker | Cyber Offense & Defense Specialist
 
 ---
 
-## 🚀 Active Projects
+## 🛠️ Active Project
 
-- **NetPhantom** — Full-stack SOCKS6 Redirector with AI-driven leak detection
-- **NovaDNS Sentinel** — Autonomous DNS-based stealth beaconing framework
-- **QuantumDNS** — Decentralized, self-healing DNS C2 infrastructure
-- **SysShroud** — Memory-resident socket cloaking for persistent field implants
-
----
-
-## 📜 Field Notes
-
-New technical papers, proof-of-concepts, and adversarial tooling drops coming soon.
-
-**EchoHollow Labs** operates in the **shadows** — forging the next generation of asymmetric operations.
+🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Simulation Toolkit  
+> **Status:** In active development.  
+> Focused on simulating clipboard monitoring behavior for research, analysis, and training purposes.
 
 ---
 
-<center><sub><span style="color:#555;">© 2025 EchoHollow Labs — Operate unseen. Strike without warning.</span></sub></center>
+## 🚀 Upcoming Development
+
+### 🪪 IdentDaemon — Identity Obfuscation Agent
+
+A lightweight daemon designed to enhance operational privacy by dynamically rotating system identity markers such as MAC address, hostname, DNS server, clock skew, and User-Agent string.
+
+**Potential Use Cases:**
+- Support red team operators in bypassing EDRs and anti-bot detection
+- Enable pentesters and researchers to conduct resilient assessments without device fingerprinting
+- Provide privacy advocates with a stealth tool for digital anonymity
+
+> **Disclaimer:** IdentDaemon will be developed for legitimate research, testing, and privacy enhancement purposes only.
+
+---
+
+<center><sub><span style="color:#555;">© 2025 EchoHollow Labs — Focused. Relentless. Unseen.</span></sub></center>
