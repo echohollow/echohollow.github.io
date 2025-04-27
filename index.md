@@ -38,6 +38,13 @@ A lightweight daemon designed to enhance operational privacy by dynamically rota
 
 ---
 
+## 📚 Blog
+
+Interested in deeper research, operational notes, and development updates?  
+➡️ [Read the EchoHollow Labs Blog](/blog)
+
+---
+
 ## 📬 Contact
 
 For inquiries and collaboration opportunities: [echohollow@tutamail.com](mailto:echohollow@tutamail.com)
