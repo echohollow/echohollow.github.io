@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "First Release — ClipFusionX Prototype"
 date: 2024-04-26 00:00:00 -0000
 categories: announcement
