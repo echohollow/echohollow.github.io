@@ -3,6 +3,10 @@ layout: default
 title: EchoHollow Labs
 ---
 
+<div align="center">
+  <img src="assets/images/logo.png" alt="EchoHollow Labs Logo" width="200">
+</div>
+
 # EchoHollow Labs
 
 > Malware Developer | Threat Analyst | Network Breaker | Cyber Offense & Defense Specialist
