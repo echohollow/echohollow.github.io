@@ -1,26 +1,39 @@
 ---
 layout: default
-title: Blog
+title: EchoHollow Labs — Projects
 ---
 
-# EchoHollow Labs — Blog
+# EchoHollow Labs — Projects & Development Blog
 
-Welcome to the operations log and research drops.
+Explore ongoing research, software releases, and operational development logs.
 
 ---
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
+## 🛠️ Active Projects
 
-{% for post in site.posts %}
-  <div style="border: 1px solid #00ffcc; border-radius: 10px; padding: 20px; width: 300px; background-color: #0d0d0d;">
-    <h2 style="color: #00ffcc; font-size: 1.5em;">
-      <a href="{{ post.url }}" style="text-decoration: none; color: #00ffcc;">
-        {{ post.title }}
-      </a>
-    </h2>
-    <p style="font-size: 0.9em; color: #888;">Posted on {{ post.date | date: "%B %d, %Y" }}</p>
-    <p style="font-size: 1em; color: #ccc;">{{ post.excerpt }}</p>
-  </div>
-{% endfor %}
+### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX)
 
-</div>
+**Clipboard Intelligence Simulation Toolkit**
+
+- Focused on clipboard event interception, monitoring simulation, and adversarial clipboard behavior training.
+- Designed for researchers, red teams, and operational simulation platforms.
+- [📝 Read the Development Log ➔](https://echohollow.github.io/announcement/2025/04/28/first-clipfusionx-announcement.html)
+
+---
+
+## 🚀 Upcoming Projects
+
+### 🪪 IdentDaemon (coming soon)
+
+**Dynamic Identity Obfuscation Agent**
+
+- Rotates MAC address, hostname, DNS servers, User-Agent, and clock skew.
+- Enhances operational stealth against device fingerprinting and tracking.
+
+---
+
+# 📚 EchoHollow Operations Log
+
+Stay tuned for regular research drops and tool development notes.
+
+---
