@@ -17,7 +17,12 @@ Explore ongoing research, software releases, and operational development logs.
 
 - Focused on clipboard event interception, monitoring simulation, and adversarial clipboard behavior training.
 - Designed for researchers, red teams, and operational simulation platforms.
-- [📝 Read the Development Log ➔]({% post_url 2025-04-26-clipfusionx %})
+- {%- assign clipfusionx_post = site.posts | where_exp: "post", "post.url contains 'clipfusionx'" | first -%}
+  {%- if clipfusionx_post -%}
+  [📝 Read the Development Log ➔]({{ clipfusionx_post.url }})
+  {%- else -%}
+  **(Development log coming soon...)**
+  {%- endif -%}
 
 ---
 
