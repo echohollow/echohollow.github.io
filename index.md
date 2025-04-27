@@ -3,7 +3,7 @@ layout: default
 title: EchoHollow Labs
 ---
 
-# EchoHollow
+# EchoHollow Labs
 
 > Malware Developer | Threat Analyst | Network Breaker | Cyber Offense & Defense Specialist
 
@@ -11,8 +11,10 @@ title: EchoHollow Labs
 
 ## 🛠️ Active Project
 
-🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Simulation Toolkit  
+### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Simulation Toolkit  
+
 > **Status:** In active development.  
+> 
 > Focused on simulating clipboard monitoring behavior for research, analysis, and training purposes.
 
 ---
@@ -32,4 +34,4 @@ A lightweight daemon designed to enhance operational privacy by dynamically rota
 
 ---
 
-<center><sub><span style="color:#555;">© 2025 EchoHollow Labs — Focused. Relentless. Unseen.</span></sub></center>
+<div align="center"><sub><span style="color:#00c8ff;">© 2025 EchoHollow Labs — Focused. Relentless. Unseen.</span></sub></div>
