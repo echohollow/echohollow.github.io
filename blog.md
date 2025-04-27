@@ -17,7 +17,8 @@ Explore ongoing research, software releases, and operational development logs.
 
 - Focused on clipboard event interception, monitoring simulation, and adversarial clipboard behavior training.
 - Designed for researchers, red teams, and operational simulation platforms.
-- [📝 Read the Development Log ➔](https://echohollow.github.io/announcement/2025/04/28/first-clipfusionx-announcement.html)
+- [📝 Read the Development Log ➔](/2025/04/28/first-clipfusionx-announcement.html)
+
 
 ---
 
