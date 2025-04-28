@@ -38,6 +38,24 @@ A lightweight daemon designed to enhance operational privacy by dynamically rota
 
 ---
 
+## 🗂️ Released Tools
+
+### 🛰️ [Ghost-NetFix](https://github.com/echohollow/Ghost-NetFix)
+
+> A stealth network recovery utility for Kali Linux, designed to quickly restore DNS and routing after MAC spoofing, NAT reconfiguration, or stealth boot.
+
+✅ Flush broken resolvers, inject clean DNS, restart networking, and validate external IP status.
+
+---
+
+### 🔄 [MACChanger-AutoLoop](https://github.com/echohollow/macchanger-autoloop)
+
+> An auto-rotating MAC address changer for Kali Linux, supporting stealth operations with timed rotations and safe restoration.
+
+✅ Rotate your MAC every X minutes and automatically revert on termination.
+
+---
+
 ## 📚 Blog
 
 Interested in deeper research, operational notes, and development updates?  
@@ -50,3 +68,4 @@ Interested in deeper research, operational notes, and development updates?
 For inquiries and collaboration opportunities: [echohollow@tutamail.com](mailto:echohollow@tutamail.com)
 
 ---
+
