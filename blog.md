@@ -54,7 +54,12 @@ Explore ongoing research, software releases, and operational development logs.
 - Multi-layer anonymity chain with ProtonVPN tunneling, dynamic MAC address spoofing, encrypted DNS queries, and Tor-based proxy forwarding.
 - Built for SOC bypass, C2 cloaking, adversarial recon, and forensic survivability across Windows environments.
 
-[🛡️ Read the Operational Release ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-phantomopsec.md)
+{% assign phantomopsec_post = site.posts | where_exp: "post", "post.url contains 'phantomopsec'" | first %}
+{% if phantomopsec_post %}
+[🛡️ Read the Operational Release ➔]({{ phantomopsec_post.url }})
+{% else %}
+[🛡️ Read the Operational Release ➔](/blog)
+{% endif %}
 
 ---
 
