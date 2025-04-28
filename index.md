@@ -13,59 +13,77 @@ title: EchoHollow Labs
 
 ---
 
-## 🛠️ Active Project
+## 🛠️ Released Projects
 
-### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Weaponization Framework  
+### 🛰️ [ShadowDNS](https://github.com/echohollow/ShadowDNS) — OPSEC-Ready DNS Monitoring Framework
 
-> **Status:** Public research version released. Operational deployment version available privately.  
+> **Status:** Released  
 > 
-> ClipFusionX targets clipboard-based cryptocurrency transactions and sensitive copy-paste events, intercepting and modifying clipboard contents in real time for adversarial simulation and operational training.
+> ShadowDNS captures and analyzes DNS traffic using multi-layer techniques (Scapy, raw sockets, ETL parsing) with stealth-first principles. Suspicious domains are detected via entropy analysis, heuristic matching, and forensic exportable artifacts.
+
+✅ Real-time DNS capture and analysis  
+✅ Entropy-based DGA detection  
+✅ Exportable forensic reports  
+✅ Built for Red Teams, Blue Teams, Threat Simulation
 
 ---
 
-## 🚀 Upcoming Development
+### 🛰️ [Ghost-NetFix](https://github.com/echohollow/Ghost-NetFix) — Stealth Network Restoration Tool
 
-### 🪪 IdentDaemon — Identity Obfuscation Agent
+> Rapid network recovery tool for stealth operations on Kali Linux after MAC spoofing, NAT changes, or stealth boot environments.
 
-A lightweight daemon designed to enhance operational privacy by dynamically rotating system identity markers such as MAC address, hostname, DNS server, clock skew, and User-Agent string.
+✅ DNS resolver reinjection  
+✅ External IP revalidation  
+✅ Stealth-safe operation
+
+---
+
+### 🔄 [MACChanger-AutoLoop](https://github.com/echohollow/macchanger-autoloop) — Stealth MAC Rotation Script
+
+> Automatic MAC address rotation framework for Kali Linux, supporting stealth operations with safe reversion on shutdown.
+
+✅ Scheduled MAC changes  
+✅ Network revalidation after each rotation  
+✅ Suitable for red team wireless assessments
+
+---
+
+## 🚀 Active Development
+
+### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Weaponization Framework
+
+> **Status:** In Active Development  
+> 
+> ClipFusionX is a real-time clipboard interception tool designed for adversarial simulation of crypto-wallet targeting and sensitive clipboard monitoring.
+
+✅ Stealth clipboard monitoring  
+✅ Cryptocurrency wallet interception research  
+✅ Process hygiene and anti-forensic metadata cleanup
+
+---
+
+## 🧪 Upcoming Project
+
+### 🪪 IdentDaemon — Dynamic Identity Obfuscation Agent
+
+A lightweight stealth daemon that dynamically rotates system identity markers such as MAC address, hostname, DNS server IPs, clock skew, and User-Agent strings.
 
 **Potential Use Cases:**
-- Support red team operators in bypassing EDRs and anti-bot detection
-- Enable pentesters and researchers to conduct resilient assessments without device fingerprinting
-- Provide privacy advocates with a stealth tool for digital anonymity
+- Red team evasion of fingerprinting  
+- Pentest operation stealth enhancement  
+- Privacy researchers requiring resilient anonymity
 
-> **Disclaimer:** IdentDaemon will be developed for legitimate research, testing, and privacy enhancement purposes only.
-
----
-
-## 🗂️ Released Tools
-
-### 🛰️ [Ghost-NetFix](https://github.com/echohollow/Ghost-NetFix)
-
-> A stealth network recovery utility for Kali Linux, designed to quickly restore DNS and routing after MAC spoofing, NAT reconfiguration, or stealth boot.
-
-✅ Flush broken resolvers, inject clean DNS, restart networking, and validate external IP status.
-
----
-
-### 🔄 [MACChanger-AutoLoop](https://github.com/echohollow/macchanger-autoloop)
-
-> An auto-rotating MAC address changer for Kali Linux, supporting stealth operations with timed rotations and safe restoration.
-
-✅ Rotate your MAC every X minutes and automatically revert on termination.
+> **Disclaimer:** IdentDaemon is intended for research, operational training, and privacy enhancement only.
 
 ---
 
 ## 📚 Blog
 
 Interested in deeper research, operational notes, and development updates?  
-➡️ [Read the EchoHollow Labs Blog](/blog)
+➡️ [Visit the EchoHollow Labs Blog](/blog)
 
 ---
 
 ## 📬 Contact
 
-For inquiries and collaboration opportunities: [echohollow@tutamail.com](mailto:echohollow@tutamail.com)
-
----
-
+For research inquiries or collaboration opportunities: [echohollow@tutamail.com](mailto:echohollow@tutamail.com)
