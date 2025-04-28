@@ -1,0 +1,4 @@
+/* Disable automatic heading icons injected by Jekyll theme */
+h2 .icon, h3 .icon, h4 .icon, h5 .icon, h6 .icon {
+    display: none !important;
+}
