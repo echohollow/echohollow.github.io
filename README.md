@@ -1,42 +1,51 @@
 # EchoHollow Labs
 
-Website ->>> https://echohollow.github.io/
+Website ➔ [https://echohollow.github.io/](https://echohollow.github.io/)
 
 🔒 **Stealth Research Division**  
-Malware Development | Threat Analysis | Network Breach Engineering | Cyber Offense & Defense
+Malware Development | Threat Intelligence | Network Breach Engineering | Cyber Offense & Defense
 
 ---
 
-## 🛠️ Active Development
+## 🛠️ Operational Projects
 
-- [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Simulation Toolkit  
-  *Status: Active development — Research tool for clipboard event analysis, security testing, and adversarial training.*
+- [ClipFusionX](https://github.com/echohollow/ClipFusionX) —  
+  *Clipboard interception and payload injection toolkit for adversarial simulations and red team exercises.*
+
+- [ShadowDNS](https://github.com/echohollow/ShadowDNS) —  
+  *Multi-method DNS traffic interception platform with stealth logging, domain profiling, and operational analysis.*
+
+- [macchanger-autoloop](https://github.com/echohollow/macchanger-autoloop) —  
+  *Automated MAC address rotation engine for Kali Linux to enhance operational stealth during live engagements.*
+
+- [Ghost-NetFix](https://github.com/echohollow/Ghost-NetFix) —  
+  *Stealth network configuration restorer for Linux environments post-MAC spoofing or NAT reconfiguration.*
+
+- [echohollow.github.io](https://github.com/echohollow/echohollow.github.io) —  
+  *Ongoing research publication hub covering stealth operations, malware engineering, and adversarial cybersecurity.*
 
 ---
 
-## 🚀 Upcoming Projects
+## 🚀 Upcoming Releases
 
-- **IdentDaemon** — Dynamic Identity Obfuscation Agent  
-  *Rotates MAC addresses, hostnames, DNS fingerprints, clock skew, and user-agents to enhance privacy and disrupt device fingerprinting techniques.*
+- **IdentDaemon** —  
+  *Dynamic Identity Obfuscation Agent rotating system fingerprints across MAC addresses, hostnames, DNS servers, user-agents, and clock skew.*
 
 ---
 
 ## 📜 About
 
-**EchoHollow Labs** focuses on the exploration of stealth techniques, autonomous cyber operations, and privacy-enhancing technologies.  
-Current focus areas include:
+**EchoHollow Labs** focuses on next-generation stealth technologies, malware architecture, and cyber operations research.  
+Current initiatives include:
 
-- Memory-resident malware simulation
-- Covert C2 framework design
+- Memory-resident malware simulation frameworks
+- Covert command-and-control (C2) architecture
 - Identity obfuscation and anti-forensics
-- Resilient adversarial network simulation
+- Resilient adversarial network systems
 
 ---
 
 ## 🛡️ Disclaimer
 
-All research and tools shared through EchoHollow Labs are intended **for legitimate cybersecurity research, privacy advocacy, and authorized testing purposes only**.
+All research, code, and publications released by EchoHollow Labs are intended **for legitimate cybersecurity research, privacy advocacy, and authorized security testing purposes only**.
 
----
-
-© 2025 EchoHollow Labs — *Operate Unseen. Strike Without Warning.*
