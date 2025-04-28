@@ -1,3 +1,7 @@
+# ===========================
+# EchoHollow Labs — Jekyll Config
+# ===========================
+
 # Site settings
 title: EchoHollow Labs
 description: Stealth Research Division — Malware | C2 | Reverse Engineering
@@ -17,14 +21,39 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
 
+# SEO settings
+seo:
+  title: EchoHollow Labs
+  description: Stealth Research Division — Malware | C2 | Reverse Engineering
+  url: "https://echohollow.github.io"
+  logo: /favicon-32x32.png
+  twitter:
+    username: echohollow
+  github:
+    username: echohollow
+
+# Favicon + Global Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      favicon: "/favicon-32x32.png"
+
 # Exclude files from processing
 exclude:
   - Gemfile
   - Gemfile.lock
   - .git/
   - README.md
+  - node_modules/
+  - vendor/
+  - package.json
+  - package-lock.json
 
-# Collections (optional later if you want extra custom sections)
+# Optional Collections (for future expansion, currently off)
 # collections:
 #   blog:
 #     output: true
+
+# Optional future settings (safe to leave commented for now)
+# future: true   # Uncomment if you want to build posts with future dates manually (NOT recommended for GitHub Pages)
