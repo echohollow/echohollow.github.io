@@ -38,6 +38,7 @@ defaults:
       path: ""
     values:
       favicon: "/favicon-32x32.png"
+      head: head-custom  # <-- THIS LINE tells Jekyll to use your custom <head> with favicon!
 
 # Exclude files from processing
 exclude:
@@ -56,4 +57,4 @@ exclude:
 #     output: true
 
 # Optional future settings (safe to leave commented for now)
-# future: true   # Uncomment if you want to build posts with future dates manually (NOT recommended for GitHub Pages)
+# future: true  
