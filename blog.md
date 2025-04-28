@@ -13,10 +13,11 @@ Explore ongoing research, software releases, and operational development logs.
 
 ### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX)
 
-**Clipboard Intelligence Simulation Toolkit**
+**Clipboard Intelligence Weaponization Framework**
 
-- Focused on clipboard event interception, monitoring simulation, and adversarial clipboard behavior training.
-- Designed for researchers, red teams, and operational simulation platforms.
+- Focused on clipboard event interception, behavioral pattern analysis, and adversarial payload injection.
+- Designed for operational research, red team simulation, and adversary emulation training.
+- Public version available for education and research; full operational version available upon verified request.
 
 {% assign clipfusionx_post = site.posts | where_exp: "post", "post.url contains 'clipfusionx'" | first %}
 {% if clipfusionx_post %}
@@ -25,7 +26,7 @@ Explore ongoing research, software releases, and operational development logs.
 [📝 Read the Development Log ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-26-clipfusionx.md)
 {% endif %}
 
---- 
+---
 
 ## 🚀 Upcoming Projects
 
@@ -33,13 +34,11 @@ Explore ongoing research, software releases, and operational development logs.
 
 **Dynamic Identity Obfuscation Agent**
 
-- Rotates MAC address, hostname, DNS servers, User-Agent, and clock skew.
-- Enhances operational stealth against device fingerprinting and tracking.
+- Rotates MAC address, hostname, DNS servers, User-Agent strings, and system clock skew.
+- Enhances operational stealth against fingerprinting, tracking, and correlation techniques.
 
 ---
 
 # 📚 EchoHollow Operations Log
 
-Stay tuned for regular research drops and tool development notes.
-
----
+Stay tuned for regular research drops and advanced tooling notes.
