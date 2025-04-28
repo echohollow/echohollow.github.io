@@ -7,88 +7,86 @@ categories: announcement
 
 # 🛰️ Operational Release — ShadowDNS v1.0
 
-ShadowDNS is a **next-gen DNS intelligence interception suite**,  
-engineered for **covert adversarial operations**, **network surveillance**, and **threat reconnaissance missions**.
+ShadowDNS is a **next-generation DNS intelligence capture suite**,  
+purpose-built for **covert reconnaissance**, **adversarial surveillance**, and **network exfiltration operations**.
 
-At its core, ShadowDNS captures, fingerprints, and classifies **all DNS traffic**  
-using **multi-layered stealth capture techniques** and **entropy-based anomaly detection** —  
-**without being detected**, **without requiring external dependencies**, and **without persistent footprints**.
+It silently **captures**, **fingerprints**, and **analyzes** DNS queries in real time,  
+using **stealth-layered packet interception**, **entropy profiling**, and **advanced pattern recognition** —  
+**without alerts**, **without persistent artifacts**, and **without external dependencies**.
 
 ---
 
 ## 🚀 Capabilities Breakdown
 
-🔎 **Full Spectrum DNS Capture**  
-- Raw socket packet inspection (Linux, macOS)  
-- Scapy-enhanced packet parsing (optional)  
-- WinDivert-based packet hijacking (Windows)  
-- Real-time DNS cache extraction (Windows fallback)  
-- ETL event log interception (Windows deep stealth)
+🔎 **Stealth DNS Capture Across Layers**  
+- Raw socket packet interception (Linux/macOS)  
+- Scapy-enhanced parsing (optional enrichment)  
+- WinDivert-based hijacking (Windows kernel traffic interception)  
+- Real-time Windows DNS cache extraction (fallback stealth)  
+- ETL event log monitoring (deep Windows DNS surveillance)
 
-⚡ **Stealth-Optimized Persistence**  
-- Dynamic privilege escalation detection  
-- Shadow memory caching to minimize forensic artifacts  
-- Passive event logging with zero injected drivers  
+🧠 **Adaptive Threat Intelligence**  
+- Suspicious domain detection via:  
+  - **Entropy analysis** (high randomness DGA detection)  
+  - **TLD profiling** (`.ru`, `.cn`, `.tk`, `.xyz`, `.onion`)  
+  - **Fast-Flux and exfil pattern recognition**  
+  - **Anomaly detection on DNS query length and structure**
 
-🧠 **Advanced Intelligence Processing**  
-- Automatic detection of suspicious domains based on:  
-  - **Entropy analysis** (detect DGA - Domain Generation Algorithms)  
-  - **TLD profiling** (RU, CN, TK, XYZ, etc.)  
-  - **Fast-flux indicators**  
-  - **Onion/TOR relay detection**  
-  - **Pastebin, Ghostbin exfil channels**  
+⚡ **Full OPSEC Optimization**  
+- Dynamic privilege detection (admin/root escalation awareness)  
+- Passive event scraping with memory-first caching  
+- In-memory SQLite logging (minimal disk I/O)  
+- Shadow backups with auto-rotation (forensic survivability)
 
-📊 **Real-Time Statistics & Visualization**  
-- Total/Unique domain counters  
-- Suspicious domain ratio analysis  
-- Live plotting (Timeline, Top Domains, Suspicious Traffic)  
-- CSV Export for offline analysis  
-- Full interactive OPSEC shell environment
-
-🛡️ **Full OPSEC Hardening**  
-- Auto-detection of DNS servers from system config  
-- Backup and auto-rotation of forensic copies  
-- In-memory SQLite database handling  
-- Zero-reliance on 3rd-party C2 servers (fully local)  
+📊 **Real-Time Analysis and Visualization**  
+- DNS activity statistics (Total queries, Suspicious ratio, Unique domains)  
+- Timeline traffic plotting (per-hour resolution)  
+- Top queried domains leaderboard  
+- Suspicious domain pie chart analysis  
+- CSV export for external exploitation or reporting
 
 ---
 
-## 🧩 How ShadowDNS Works
+## 🧩 Operational Workflow
 
-> 1. Start `ShadowDNS` and select your capture mode(s) — socket, Scapy, WinDivert, ETL, or fallback.
-> 2. Begin passive DNS interception across system, browser, and live network events.
-> 3. Real-time domain analysis: Entropy scoring, whitelist filtering, suspicious detection.
-> 4. Log everything silently to a stealth database (`shadowdns.db`) while remaining invisible.
-> 5. Export, plot, search, or group traffic by parent websites — OPSEC-ready for exfil staging or target profiling.
+1. **Initialize** ShadowDNS in capture mode (socket, Scapy, WinDivert, or ETL).
+2. **Silently intercept** all DNS queries crossing the host or network interface.
+3. **Score and fingerprint** every domain using entropy, whitelist, blacklist, and heuristic filters.
+4. **Log** captured metadata into an encrypted stealth database (`shadowdns.db`).
+5. **Analyze** top domains, suspicious hits, and timeline spikes via built-in stats or exported CSVs.
+6. **Exfiltrate**, **profile**, or **weaponize** captured intel as needed.
+
+> ShadowDNS turns the DNS layer into a full-spectrum recon channel,  
+> **hijacking the network’s eyes before defenders even notice.**
 
 ---
 
 ## 🔥 Real-World Use Cases
 
-- **Pre-reconnaissance for APT deployment**
-- **Red team beacon tracking and network fingerprinting**
-- **Detecting covert command-and-control domains**
-- **Spotting DGA malware in target environments**
-- **Stealth exfiltration vector identification**
-- **Custom target domain building for next-stage payloads**
+- Pre-recon reconnaissance for **APT weapon deployment**  
+- **Red team beacon mapping** (identify live C2 endpoints through DNS leaks)  
+- **Detection of covert C2 infrastructures** (Tor, pastebins, DGA bots)  
+- **Profiling of enterprise network behavior** before payload injection  
+- **Discovery of exfiltration vectors** based on DNS misuses  
+- **Target domain construction** for second-stage payload embedding
 
 ---
 
 ## ⚙️ System Requirements
 
 - **Python 3.8+**  
-- **Optional:**  
-  - `scapy`, `dpkt`, `pydivert`, `matplotlib` (auto-detects if missing)  
-- **Admin/root privileges** (for full packet capture capabilities)  
+- **Optional but recommended packages:**  
+  - `scapy`, `dpkt`, `pydivert`, `matplotlib` *(auto-detected if missing)*  
+- **Admin/root privileges recommended** for full interception capabilities
 
-OS Support:  
-- Windows 10/11 (Full ETL + WinDivert + Cache Monitoring)  
-- Linux (Socket Capture Mode)  
-- macOS (Socket Capture Mode)
+Supported Operating Systems:  
+- ✅ Windows 10/11 (ETL + WinDivert + Cache monitoring)  
+- ✅ Linux (Socket capture mode)  
+- ✅ macOS (Socket capture mode)
 
 ---
 
-## ⚡ Quickstart
+## ⚡ Quickstart Deployment
 
 ```bash
 git clone https://github.com/echohollow/ShadowDNS.git
