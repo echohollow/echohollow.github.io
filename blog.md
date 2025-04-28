@@ -47,6 +47,17 @@ Explore ongoing research, software releases, and operational development logs.
 
 ---
 
+### 🔗 PhantomOPSEC
+
+**Full-Spectrum Windows OPSEC Hardening Stack**
+
+- Multi-layer anonymity chain with ProtonVPN tunneling, dynamic MAC address spoofing, encrypted DNS queries, and Tor-based proxy forwarding.
+- Built for SOC bypass, C2 cloaking, adversarial recon, and forensic survivability across Windows environments.
+
+[🛡️ Read the Operational Release ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-phantomopsec.md)
+
+---
+
 ## 🚀 Upcoming Projects
 
 ### 🪪 IdentDaemon (coming soon)
