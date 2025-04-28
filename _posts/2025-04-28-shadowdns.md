@@ -88,12 +88,7 @@ Supported Operating Systems:
 
 ## ⚡ Quickstart Deployment
 
-```bash
-git clone https://github.com/echohollow/ShadowDNS.git
-cd ShadowDNS
-python main.py
 
-```bash
 git clone https://github.com/echohollow/ShadowDNS.git
 cd ShadowDNS
 python main.py
