@@ -28,6 +28,25 @@ Explore ongoing research, software releases, and operational development logs.
 
 ---
 
+## ✅ Completed Projects
+
+### 🔗 [ShadowDNS](https://github.com/echohollow/ShadowDNS)
+
+**Covert DNS Interception and Surveillance Framework**
+
+- Multi-method DNS packet capture, suspicious domain profiling, and stealth database logging.
+- Supports raw sockets, WinDivert hijacking, ETL event tracing, and browser history exfil.
+- Built for red team reconnaissance, adversary emulation, and OPSEC-driven DNS intelligence gathering.
+
+{% assign shadowdns_post = site.posts | where_exp: "post", "post.url contains 'shadowdns'" | first %}
+{% if shadowdns_post %}
+[🛰️ Read the Operational Release ➔]({{ shadowdns_post.url }})
+{% else %}
+[🛰️ Read the Operational Release ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-shadowdns.md)
+{% endif %}
+
+---
+
 ## 🚀 Upcoming Projects
 
 ### 🪪 IdentDaemon (coming soon)
