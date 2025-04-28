@@ -59,7 +59,7 @@ Follow these steps in order:
    SocksPort 127.0.0.1:9050
    ControlPort 127.0.0.1:9051
    CookieAuthentication 1
-   HashedControlPassword 16:ABCDEF1234567890ABCDEF1234567890ABCDEF1234567890ABCDEF
+   HashedControlPassword 16:AB38C2D76453A74560CA2BB8C1A7042072093276A3D701AD684053EC4C
    
    ## === SPEED & STABILITY ===
    AvoidDiskWrites 1
@@ -68,9 +68,16 @@ Follow these steps in order:
    DisableNetwork 0
    MaxCircuitDirtiness 600
    
+   ## === ENTRY NODE RESTRICTIONS (OPTIONAL: SPEED BOOST) ===
+   # EntryNodes {us},{de},{fr}
+   # StrictNodes 1
+   
    ## === GEOIP FILES (FIX RELATIVE PATH WARNINGS) ===
    GeoIPFile C:\Tor\Data\geoip
    GeoIPv6File C:\Tor\Data\geoip6
+   
+   ## === LOGGING (OPTIONAL) ===
+   Log notice stdout
    ```
    
    - Create a batch file (tor.bat) to start Tor with your custom config:
