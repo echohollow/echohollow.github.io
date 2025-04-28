@@ -15,11 +15,11 @@ title: EchoHollow Labs
 
 ## 🛠️ Active Project
 
-### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Simulation Toolkit  
+### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Weaponization Framework  
 
-> **Status:** In active development.  
+> **Status:** Public research version released. Operational deployment version available privately.  
 > 
-> Focused on simulating clipboard monitoring behavior for research, analysis, and training purposes.
+> ClipFusionX targets clipboard-based cryptocurrency transactions and sensitive copy-paste events, intercepting and modifying clipboard contents in real time for adversarial simulation and operational training.
 
 ---
 
@@ -50,5 +50,3 @@ Interested in deeper research, operational notes, and development updates?
 For inquiries and collaboration opportunities: [echohollow@tutamail.com](mailto:echohollow@tutamail.com)
 
 ---
-
-<div align="center"><sub><span style="color:#00c8ff;">© 2025 EchoHollow Labs — Focused. Relentless. Unseen.</span></sub></div>
