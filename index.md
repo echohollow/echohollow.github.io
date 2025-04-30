@@ -7,6 +7,11 @@ title: EchoHollow Labs
   <img src="assets/images/logo.png" alt="EchoHollow Labs Logo" width="200">
 </div>
 
+<div align="center" style="border: 2px solid #f44336; padding: 1em; background-color: #fff5f5; color: #b71c1c; font-weight: bold;">
+  🔒 LEGAL NOTICE: EchoHollow Labs is strictly for cybersecurity research, red team simulation, threat analysis, and ethical security education.  
+  All software and research published here is for **authorized use only**. Nothing hosted or referenced is intended for illegal activity.
+</div>
+
 # EchoHollow Labs
 
 > Malware Developer | Threat Analyst | Network Breaker | Cyber Offense & Defense Specialist
