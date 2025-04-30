@@ -11,13 +11,32 @@ Explore ongoing research, software releases, and operational development logs.
 
 ## 🛠️ Active Projects
 
+### 🔗 [IdentDaemon](https://github.com/echohollow/IdentDaemon)
+
+**Dynamic Identity Obfuscation Agent**
+
+- Rotates MAC address, hostname, DNS servers, User-Agent strings, and system clock skew.
+- Enhances operational stealth against fingerprinting, tracking, and correlation techniques.
+- Lightweight, daemon-style implementation for long-running anonymity protection.
+
+{% assign ident_post = site.posts | where_exp: "post", "post.url contains 'identdaemon'" | first %}
+{% if ident_post %}
+[🪪 Read the Development Log ➔]({{ ident_post.url }})
+{% else %}
+[🪪 Read the Development Log ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-29-identdaemon.md)
+{% endif %}
+
+---
+
+## ✅ Completed Projects
+
 ### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX)
 
 **Clipboard Intelligence Weaponization Framework**
 
-- Focused on clipboard event interception, behavioral pattern analysis, and adversarial payload injection.
-- Designed for operational research, red team simulation, and adversary emulation training.
-- Public version available for education and research; full operational version available upon verified request.
+- Clipboard interception engine for wallet targeting, behavior modeling, and red team simulation.
+- Memory-resident execution, PEB spoofing, entropy-based detection, and self-wiping logic.
+- Final public build available; private OPSEC-grade version available upon verified request.
 
 {% assign clipfusionx_post = site.posts | where_exp: "post", "post.url contains 'clipfusionx'" | first %}
 {% if clipfusionx_post %}
@@ -27,8 +46,6 @@ Explore ongoing research, software releases, and operational development logs.
 {% endif %}
 
 ---
-
-## ✅ Completed Projects
 
 ### 🔗 [ShadowDNS](https://github.com/echohollow/ShadowDNS)
 
@@ -60,17 +77,6 @@ Explore ongoing research, software releases, and operational development logs.
 {% else %}
 [🛡️ Read the Operational Release ➔](/blog)
 {% endif %}
-
----
-
-## 🚀 Upcoming Projects
-
-### 🪪 IdentDaemon (coming soon)
-
-**Dynamic Identity Obfuscation Agent**
-
-- Rotates MAC address, hostname, DNS servers, User-Agent strings, and system clock skew.
-- Enhances operational stealth against fingerprinting, tracking, and correlation techniques.
 
 ---
 
