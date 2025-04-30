@@ -2,58 +2,72 @@
 layout: default
 title: EchoHollow Labs
 ---
-```
-███████╗ ██████╗██╗  ██╗ ██████╗ ██╗  ██╗ ██████╗ ██╗     ██╗      ██████╗ ██╗    ██╗
-██╔════╝██╔════╝██║  ██║██╔═══██╗██║  ██║██╔═══██╗██║     ██║     ██╔═══██╗██║    ██║
-█████╗  ██║     ███████║██║   ██║███████║██║   ██║██║     ██║     ██║   ██║██║ █╗ ██║
-██╔══╝  ██║     ██╔══██║██║   ██║██╔══██║██║   ██║██║     ██║     ██║   ██║██║███╗██║
-███████╗╚██████╗██║  ██║╚██████╔╝██║  ██║╚██████╔╝███████╗███████╗╚██████╔╝╚███╔███╔╝
-╚══════╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝ ╚═════╝  ╚══╝╚══╝ 
-```
-```diff
-- [ WARNING: OPERATIONAL SECURITY NOTICE ]
-+ All tools, scripts, and frameworks below are for red team simulation, threat analysis, and cybersecurity research only.
-+ Unauthorized access, tampering, or deployment outside of controlled labs is illegal and strictly forbidden.
-```
+
+<div align="center">
+  <img src="assets/images/logo.png" alt="EchoHollow Labs Logo" width="200">
+</div>
+
+# EchoHollow Labs
+
+> Malware Developer | Threat Analyst | Network Breaker | Cyber Offense & Defense Specialist
+
 ---
-## 🔧 EchoHollow Labs — Completed Projects
-### 🔹 [ShadowDNS](https://github.com/echohollow/ShadowDNS)
-> **Live DNS Interceptor** | DGA entropy detection | Forensics-ready exports
-- Real-time DNS traffic sink + pattern analyzer
-- Tracks high-entropy beacons from suspected APT traffic
-- Logs to encrypted forensic-ready output
+
+## 🛠️ Released Projects
+
+### 🛰️ [ShadowDNS](https://github.com/echohollow/ShadowDNS) — OPSEC-Ready DNS Monitoring Framework  
+✅ Real-time DNS capture and analysis  
+✅ Entropy-based DGA detection  
+✅ Exportable forensic reports  
+✅ Built for Red Teams, Blue Teams, Threat Simulation
+
 ---
-### 🔹 [Ghost-NetFix](https://github.com/echohollow/Ghost-NetFix)
-> **Red Team DNS Fixer** | Reinjects resolvers | Stealth recovery tool
-- Resets borked DNS during post-exploit cleanup
-- OPSEC-safe — never writes logs
-- Spoof-safe IP validator before reinjection
+
+### 🛰️ [Ghost-NetFix](https://github.com/echohollow/Ghost-NetFix) — Stealth Network Restoration Tool  
+✅ DNS resolver reinjection  
+✅ External IP revalidation  
+✅ Stealth-safe operation
+
 ---
-### 🔹 [MACChanger-AutoLoop](https://github.com/echohollow/macchanger-autoloop)
-> **MAC Cycle Engine** | Loop-based identity mutation
-- Rotates MAC + validates DHCP every X mins
+
+### 🔄 [MACChanger-AutoLoop](https://github.com/echohollow/macchanger-autoloop) — Stealth MAC Rotation Script  
+✅ Scheduled MAC changes  
+✅ Network revalidation after each rotation  
+✅ Suitable for red team wireless assessments
+
 ---
-### 🔹 [ClipFusionX](https://github.com/echohollow/ClipFusionX)
-> **Clipboard Fusion Layer** | Wallet swap sim engine
-- Monitors clipboard & logs patterns (BTC, XMR, ETH)
-- Encrypts logs | self-wiping | OPSEC clean mode
-- Simulation-focused, for adversary TTP modeling
+
+### 🛰️ [ClipFusionX](https://github.com/echohollow/ClipFusionX) — Clipboard Intelligence Weaponization Framework  
+> **Status:** Final Public Build  
+>  
+> ClipFusionX is a real-time clipboard interception framework designed for adversarial simulation of crypto-wallet targeting and sensitive clipboard monitoring.
+
+✅ Stealth clipboard monitoring  
+✅ Cryptocurrency wallet interception research  
+✅ Process hygiene and anti-forensic metadata cleanup
+
 ---
-## 🧪 Under Construction
-### 🪪 **IdentDaemon**
-> Real-time daemon that mutates:
-- MAC addresses
-- Hostname / DNS resolver chain
-- Clock skew + timezone + locale
-- User-Agent strings
-🛠️ Status: Modular injection core complete  
-🎯 Goal: Ghost signature evasion & anti-fingerprinting agent for C2 clients
+
+## 🚀 Active Development
+
+### 🪪 IdentDaemon — Dynamic Identity Obfuscation Agent  
+A lightweight stealth daemon that dynamically rotates system identity markers such as MAC address, hostname, DNS server IPs, clock skew, and User-Agent strings.
+
+✅ Red team evasion of fingerprinting  
+✅ Pentest operation stealth enhancement  
+✅ Privacy researchers requiring resilient anonymity
+
+> **Status:** Actively developed with modular rotation core and daemon watchdog integration in progress.
+
 ---
-## 🧠 Tactical Blog Drop
-Logs from the lab | Payload design | Forensic poison | Memory-resident dreams  
-🔗 [`/blog`](https://echohollow.github.io/blog)
+
+## 📚 Blog
+
+Interested in deeper research, operational notes, and development updates?  
+➡️ [Visit the EchoHollow Labs Blog](/blog)
+
 ---
-## 🧬 Contact Ops
-Operational collab, threat sim design, malware R&D:  
-📬 `echohollow@tutamail.com`
----
+
+## 📬 Contact
+
+For research inquiries or collaboration opportunities: [echohollow@tutamail.com](mailto:echohollow@tutamail.com)
