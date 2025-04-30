@@ -32,7 +32,6 @@ title: EchoHollow Labs
 ### 🔹 [MACChanger-AutoLoop](https://github.com/echohollow/macchanger-autoloop)
 > **MAC Cycle Engine** | Loop-based identity mutation
 - Rotates MAC + validates DHCP every X mins
-- Ideal for rogue AP ops or mobile wireless pivoting
 ---
 ### 🔹 [ClipFusionX](https://github.com/echohollow/ClipFusionX)
 > **Clipboard Fusion Layer** | Wallet swap sim engine
