@@ -85,7 +85,7 @@ title: EchoHollow Labs — Projects
 * Modular architecture with worm, rootkit, stealer, and DNS/TOR C2 logic.
 * Full build system from shellcode generation to encrypted deployment and stealth injection.
 * Guide includes all build steps, payload injection, rootkit loader, and phishing dropper integration.
-  [🧬 Read the Full Guide ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-05-03-ghostinject.md)
+  [🧬 Read the Full Guide ➔](/2025/05/03/ghostinject.html)
 
 ---
 
