@@ -42,7 +42,7 @@ title: EchoHollow Labs — Projects
   {% if clipfusionx\_post %}
   \[📝 Read the Development Log ➔]\({{ clipfusionx\_post.url }})
   {% else %}
-  [📝 Read the Development Log ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-26-clipfusionx.md)
+  [📝 Read the Development Log ➔](/2025/04/26/clipfusionx.html)
   {% endif %}
 
 ---
@@ -58,7 +58,7 @@ title: EchoHollow Labs — Projects
   {% if shadowdns\_post %}
   \[🛰️ Read the Operational Release ➔]\({{ shadowdns\_post.url }})
   {% else %}
-  [🛰️ Read the Operational Release ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-shadowdns.md)
+  [🛰️ Read the Operational Release ➔](/2025/04/28/shadowdns.html)
   {% endif %}
 
 ---
@@ -78,7 +78,7 @@ title: EchoHollow Labs — Projects
 
 ---
 
-### 🔗 [GhostInject Modular Framework](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-05-03-ghostinject.md)
+### 🔗 [GhostInject Modular Framework](/2025/05/03/ghostinject.html)
 
 **ATP-Grade Memory-Only Malware Chain**
 
@@ -99,3 +99,4 @@ Operational collab, threat sim design, malware R\&D:
 # 📚 EchoHollow Operations Log
 
 Stay tuned for regular research drops and advanced tooling notes.
+
