@@ -1,3 +1,9 @@
+---
+layout: post
+title: "PhantomOPSEC"
+date: 2025-04-28
+---
+
 # PhantomOPSEC v1.0: Simple User Guide
 
 ## What is PhantomOPSEC?
