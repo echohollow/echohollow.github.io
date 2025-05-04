@@ -13,6 +13,8 @@ title: EchoHollow Labs
 
 ---
 
+---
+
 ## 🛠️ Released Projects
 
 ### 🛰️ [ShadowDNS](https://github.com/echohollow/ShadowDNS) — OPSEC-Ready DNS Monitoring Framework  
@@ -47,6 +49,20 @@ title: EchoHollow Labs
 ✅ Process hygiene and anti-forensic metadata cleanup
 
 ---
+
+### 🔐 [CryptexX](https://github.com/echohollow/CryptexX) — Stateless Dual-Layer Payload Encryption Tool  
+> **Status:** Complete Build  
+>  
+> CryptexX is a lightweight encryption system with dual-layer security (AES-256-CBC + XOR) and stateless architecture designed for elastic deployment.
+
+✅ AES + XOR dual-layer encryption  
+✅ Stateless and environment-agnostic  
+✅ Secure key derivation (PBKDF2-HMAC-SHA256)  
+✅ Compression with zlib + variable-length padding  
+✅ Encrypted single-file output for rapid transport
+
+---
+
 
 ## 📚 Blog
 
