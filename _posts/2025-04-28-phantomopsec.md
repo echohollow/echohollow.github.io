@@ -2,6 +2,7 @@
 layout: post
 title: "PhantomOPSEC"
 date: 2025-04-28
+permalink: /2025/04/28/phantomopsec.html
 ---
 
 # PhantomOPSEC v1.0: Simple User Guide
