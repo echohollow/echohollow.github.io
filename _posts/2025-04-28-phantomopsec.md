@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "PhantomOPSEC"
-date: 2025-04-28
+date: 2025-04-28 00:00:00 +0000
 permalink: /2025/04/28/phantomopsec.html
+categories: announcement
 ---
+
 
 # PhantomOPSEC v1.0: Simple User Guide
 
