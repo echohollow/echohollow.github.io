@@ -2,8 +2,7 @@
 
 layout: default
 title: EchoHollow Labs — Projects
----------------------------------
-
+---
 # EchoHollow Labs — Projects & Development Blog
 
 ## Explore ongoing research, software releases, and operational development logs.
