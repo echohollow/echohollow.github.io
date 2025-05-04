@@ -20,17 +20,7 @@ Explore ongoing research, software releases, and operational development logs.
 ```
 ---
 ## 🛠️ Active Projects
-### 🔗 [IdentDaemon](https://github.com/echohollow/IdentDaemon)
-**Dynamic Identity Obfuscation Agent**
-- Rotates MAC address, hostname, DNS servers, User-Agent strings, and system clock skew.
-- Enhances operational stealth against fingerprinting, tracking, and correlation techniques.
-- Lightweight, daemon-style implementation for long-running anonymity protection.
-{% assign ident_post = site.posts | where_exp: "post", "post.url contains 'identdaemon'" | first %}
-{% if ident_post %}
-[🪪 Read the Development Log ➔]({{ ident_post.url }})
-{% else %}
-[🪪 Read the Development Log ➔](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-29-identdaemon.md)
-{% endif %}
+
 ---
 ## ✅ Completed Projects
 ### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX)
@@ -74,3 +64,4 @@ Operational collab, threat sim design, malware R&D:
 ---
 # 📚 EchoHollow Operations Log
 Stay tuned for regular research drops and advanced tooling notes.
+
