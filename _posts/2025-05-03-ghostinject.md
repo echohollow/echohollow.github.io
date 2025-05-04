@@ -1,3 +1,10 @@
+---
+layout: post
+title: "GhostInject Modular Framework"
+date: 2025-05-03 12:00:00 +0000
+---
+
+
 # How Malware Works — Modular Malware Build System (Ghost Inject Chain)
 
 This is your  **end-to-end ATP-grade modular build system** , where each layer of the malware is designed to  **operate in memory** ,  **evade EDRs** , and  **maintain OPSEC with layered encryption and injection** .
