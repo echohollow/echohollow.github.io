@@ -5,7 +5,7 @@
 # Site settings
 title: EchoHollow Labs
 description: Stealth Research Division — Malware | C2 | Reverse Engineering
-baseurl: ""  # Leave empty for User/Org GitHub Pages
+baseurl: ""  # Leave empty for GitHub Pages (User/Org site)
 url: "https://echohollow.github.io"
 theme: jekyll-theme-slate
 markdown: kramdown
@@ -16,7 +16,7 @@ github_username: echohollow
 # Build settings
 permalink: /:year/:month/:day/:title.html
 
-# Plugins
+# Plugins (requires GitHub Pages-supported plugins)
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -38,7 +38,7 @@ defaults:
       path: ""
     values:
       favicon: "/favicon-32x32.png"
-      head: head-custom  # Custom <head> includes favicon
+      layout: post  # Ensure _posts uses post.html layout
 
 # Exclude files from processing
 exclude:
@@ -51,7 +51,7 @@ exclude:
   - package.json
   - package-lock.json
 
-# Optional Collections (future use)
+# Optional Collections (for later if needed)
 # collections:
 #   blog:
 #     output: true
