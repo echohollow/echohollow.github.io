@@ -43,7 +43,7 @@ title: EchoHollow Labs — Projects
 
 ---
 
-### 🔗 [ShadowDNS](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-shadowdns.md)  
+### 🔗 [ShadowDNS](https://github.com/echohollow/ShadowDNS)  
 📖 [🛰️ Read Operational Release ➔](/2025/04/28/shadowdns.html)
 
 **Covert DNS Interception and Surveillance**
@@ -54,7 +54,7 @@ title: EchoHollow Labs — Projects
 
 ---
 
-### 🔗 [PhantomOPSEC](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-phantomopsec.md)  
+### 🔗 PhantomOPSEC  
 📖 [🛡️ Read Operational Release ➔](/2025/04/28/phantomopsec.html)
 
 **Windows-Based OPSEC Evasion Stack**
@@ -64,7 +64,7 @@ title: EchoHollow Labs — Projects
 
 ---
 
-### 🔗 [GhostInject Modular Framework](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-05-03-ghostinject.md)  
+### 🔗 [GhostInject Modular Framework](https://github.com/echohollow/Modular-Malware-Framework)  
 📖 [🧬 Read Full Guide ➔](/2025/05/03/ghostinject.html)
 
 **Memory-Only Malware Build Chain**
@@ -85,3 +85,4 @@ For red team collaboration, operational research, or threat tooling:
 # 📚 EchoHollow Operations Log
 
 > Future tooling drops, stealth techniques, and adversary simulation modules will be posted here.
+
