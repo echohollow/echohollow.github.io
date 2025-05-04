@@ -74,6 +74,17 @@ title: EchoHollow Labs — Projects
 
 ---
 
+### 🔗 [CryptexX](https://github.com/echohollow/CryptexX)  
+📖 [🔐 Read Complete Build ➔](/2025/05/03/cryptexx.html)
+
+**Stateless Payload Encryption Framework**
+
+* AES + XOR dual-layer encryption.  
+* Randomized compression and obfuscation.  
+* No execution stubs — pure payload wrapper.
+
+---
+
 ## 🧬 Contact Ops
 
 For red team collaboration, operational research, or threat tooling:
