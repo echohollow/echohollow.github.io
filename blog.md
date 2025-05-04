@@ -93,7 +93,8 @@ title: EchoHollow Labs — Projects
 
 Operational collab, threat sim design, malware R\&D:
 📬 `echohollow@tutamail.com`
-----------------------------
+
+---
 
 # 📚 EchoHollow Operations Log
 
