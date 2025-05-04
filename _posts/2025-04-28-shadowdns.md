@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Operational Release — ShadowDNS v1.0"
 date: 2025-04-28 00:00:00 +0000
 permalink: /2025/04/28/shadowdns.html
