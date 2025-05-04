@@ -1,9 +1,11 @@
 ---
-layout: default
+layout: post
 title: "Operational Release — ClipFusionX"
-date: 2024-04-26 00:00:00 -0000
+date: 2025-04-26 00:00:00 +0000
+permalink: /2025/04/26/clipfusionx.html
 categories: announcement
 ---
+
 
 # 🛡️ Operational Release — ClipFusionX
 
