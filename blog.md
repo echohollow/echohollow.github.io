@@ -1,5 +1,4 @@
 ---
-
 layout: default
 title: EchoHollow Labs — Projects
 ---
@@ -9,12 +8,12 @@ title: EchoHollow Labs — Projects
 ## Explore ongoing research, software releases, and operational development logs.
 
 ```
-███████╗ ██████╗██╗  ██╗ ██████╗ ██╗  ██╗ ██████╗ ██╗     ██╗      ██████╗ ██╗    ██╗
-██╔════╝██╔════╝██║  ██║██╔═══██╗██║  ██║██╔═══██╗██║     ██║     ██╔═══██╗██║    ██║
-█████╗  ██║     ███████║██║   ██║███████║██║   ██║██║     ██║     ██║   ██║██║ █╗ ██║
-██╔══╝  ██║     ██╔══██║██║   ██║██╔══██║██║   ██║██║     ██║     ██║   ██║██║███╗██║
-███████╗╚██████╗██║  ██║╚██████╔╝██║  ██║╚██████╔╝███████╗███████╗╚██████╔╝╚███╔███╔╝
-╚══════╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚══════╝╚══════╝ ╚═════╝  ╚══╝╚══╝ 
+███████▋ ██████▌██▁  ██▁ █████▌ ██▁  ██▁ █████▌ ██▁     ██▁      █████▌ ██▁    ██▁
+██╔═══╝██╔═══╝██▁  ██▁██╔═══██▁██▁  ██▁██╔═══██▁██▁     ██▁     ██╔═══██▁██▁    ██▁
+█████▌  ██▁     ███████▁██▁   ██▁██▁   ██▁██▁     ██▁     ██▁   ██▁██▁ ▁ ██▁
+██╔══╝██▁     ██╔══██▁██▁   ██▁██▁   ██▁██▁     ██▁     ██▁   ██▁██▁██▃██▁
+██████▋╚█████▌██▁  ██▁╚████▌╝██▁  ██▁╚████▌╝█████▋█████▋╚████▌╝╚███╔██╔╝
+╚═════╝ ╚═════╝╚════╝ ╚════╝ ╚═════╝╚═════╝╚═════╝ ╚════╝  ╚════╝ ╚════╝
 ```
 
 ```diff
@@ -27,60 +26,62 @@ title: EchoHollow Labs — Projects
 
 ## 🛠️ Active Projects
 
+(None currently listed)
+
 ---
 
 ## ✅ Completed Projects
 
-### 🔗 [ClipFusionX](/2025/04/26/clipfusionx.html)
+### 🔗 [ClipFusionX](https://github.com/echohollow/ClipFusionX)  
+📖 [📝 Read Operational Release ➔](/2025/04/26/clipfusionx.html)
 
 **Clipboard Intelligence Weaponization Framework**
 
-* Clipboard interception engine for wallet targeting, behavior modeling, and red team simulation.
-* Memory-resident execution, PEB spoofing, entropy-based detection, and self-wiping logic.
-* Final public build available; private OPSEC-grade version available upon verified request.
-  [📝 Read the Development Log ➔](/2025/04/26/clipfusionx.html)
+* Real-time clipboard hijack targeting BTC/ETH.
+* Entropy fingerprinting, PEB spoofing, and stealth logic.
+* Public (educational) and private (operational) variants available.
 
 ---
 
-### 🔗 [ShadowDNS](/2025/04/28/shadowdns.html)
+### 🔗 [ShadowDNS](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-shadowdns.md)  
+📖 [🛰️ Read Operational Release ➔](/2025/04/28/shadowdns.html)
 
-**Covert DNS Interception and Surveillance Framework**
+**Covert DNS Interception and Surveillance**
 
-* Multi-method DNS packet capture, suspicious domain profiling, and stealth database logging.
-* Supports raw sockets, WinDivert hijacking, ETL event tracing, and browser history exfil.
-* Built for red team reconnaissance, adversary emulation, and OPSEC-driven DNS intelligence gathering.
-  [🛰️ Read the Operational Release ➔](/2025/04/28/shadowdns.html)
-
----
-
-### 🔗 [PhantomOPSEC](/2025/04/28/phantomopsec.html)
-
-**Full-Spectrum Windows OPSEC Hardening Stack**
-
-* Multi-layer anonymity chain with ProtonVPN tunneling, dynamic MAC address spoofing, encrypted DNS queries, and Tor-based proxy forwarding.
-* Built for SOC bypass, C2 cloaking, adversarial recon, and forensic survivability across Windows environments.
-  [🛡️ Read the Operational Release ➔](/2025/04/28/phantomopsec.html)
+* DNS packet hijack, ETL tracing, browser history siphon.
+* Raw socket + WinDivert + stealth disk logging.
+* Built for adversary emulation and passive recon.
 
 ---
 
-### 🔗 [GhostInject Modular Framework](/2025/05/03/ghostinject.html)
+### 🔗 [PhantomOPSEC](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-04-28-phantomopsec.md)  
+📖 [🛡️ Read Operational Release ➔](/2025/04/28/phantomopsec.html)
 
-**ATP-Grade Memory-Only Malware Chain**
+**Windows-Based OPSEC Evasion Stack**
 
-* Modular architecture with worm, rootkit, stealer, and DNS/TOR C2 logic.
-* Full build system from shellcode generation to encrypted deployment and stealth injection.
-* Guide includes all build steps, payload injection, rootkit loader, and phishing dropper integration.
-  [🧬 Read the Full Guide ➔](/2025/05/03/ghostinject.html)
+* Multi-layer anonymization, MAC spoofing, ProtonVPN/Tor chaining.
+* DNS encryption, C2 obfuscation, and forensic survival toolkit.
+
+---
+
+### 🔗 [GhostInject Modular Framework](https://github.com/echohollow/echohollow.github.io/blob/main/_posts/2025-05-03-ghostinject.md)  
+📖 [🧬 Read Full Guide ➔](/2025/05/03/ghostinject.html)
+
+**Memory-Only Malware Build Chain**
+
+* Includes shellcode loader, worm/stealer/rootkit modules.
+* DNS/TOR C2, runtime-only payloads, phishing dropper support.
 
 ---
 
 ## 🧬 Contact Ops
 
-Operational collab, threat sim design, malware R\&D:
+For red team collaboration, operational research, or threat tooling:
+
 📬 `echohollow@tutamail.com`
 
 ---
 
 # 📚 EchoHollow Operations Log
 
-Stay tuned for regular research drops and advanced tooling notes.
+> Future tooling drops, stealth techniques, and adversary simulation modules will be posted here.
