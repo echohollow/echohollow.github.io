@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "GhostInject Modular Framework"
 date: 2025-05-03 12:00:00 +0000
 permalink: /2025/05/03/ghostinject.html
