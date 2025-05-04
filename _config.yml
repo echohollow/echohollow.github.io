@@ -5,7 +5,7 @@
 # Site settings
 title: EchoHollow Labs
 description: Stealth Research Division — Malware | C2 | Reverse Engineering
-baseurl: "" # Leave empty for User/Org GitHub Pages
+baseurl: ""  # Leave empty for User/Org GitHub Pages
 url: "https://echohollow.github.io"
 theme: jekyll-theme-slate
 markdown: kramdown
@@ -14,7 +14,7 @@ markdown: kramdown
 github_username: echohollow
 
 # Build settings
-permalink: /:categories/:year/:month/:day/:title.html
+permalink: /:year/:month/:day/:title.html
 
 # Plugins
 plugins:
@@ -38,7 +38,7 @@ defaults:
       path: ""
     values:
       favicon: "/favicon-32x32.png"
-      head: head-custom  # <-- THIS LINE tells Jekyll to use your custom <head> with favicon!
+      head: head-custom  # Custom <head> includes favicon
 
 # Exclude files from processing
 exclude:
@@ -51,10 +51,10 @@ exclude:
   - package.json
   - package-lock.json
 
-# Optional Collections (for future expansion, currently off)
+# Optional Collections (future use)
 # collections:
 #   blog:
 #     output: true
 
-# Optional future settings (safe to leave commented for now)
-# future: true  
+# Optional future settings
+# future: true
