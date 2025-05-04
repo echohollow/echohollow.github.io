@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "PhantomOPSEC"
 date: 2025-04-28 00:00:00 +0000
 permalink: /2025/04/28/phantomopsec.html
