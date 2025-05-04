@@ -48,19 +48,6 @@ title: EchoHollow Labs
 
 ---
 
-## 🚀 Active Development
-
-### 🪪 IdentDaemon — Dynamic Identity Obfuscation Agent  
-A lightweight stealth daemon that dynamically rotates system identity markers such as MAC address, hostname, DNS server IPs, clock skew, and User-Agent strings.
-
-✅ Red team evasion of fingerprinting  
-✅ Pentest operation stealth enhancement  
-✅ Privacy researchers requiring resilient anonymity
-
-> **Status:** Actively developed with modular rotation core and daemon watchdog integration in progress.
-
----
-
 ## 📚 Blog
 
 Interested in deeper research, operational notes, and development updates?  
@@ -71,3 +58,4 @@ Interested in deeper research, operational notes, and development updates?
 ## 📬 Contact
 
 For research inquiries or collaboration opportunities: [echohollow@tutamail.com](mailto:echohollow@tutamail.com)
+
